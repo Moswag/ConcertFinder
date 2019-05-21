@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "25129664796",
+    "firebase_url": "https://concertfinder-6d83d.firebaseio.com",
+    "project_id": "concertfinder-6d83d",
+    "storage_bucket": "concertfinder-6d83d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25129664796:android:9bfe293552b36e83",
+        "android_client_info": {
+          "package_name": "cytex.co.zw.concertfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25129664796-5alkq4uo721ard9dgjimjgis7ongpb6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cytex.co.zw.concertfinder",
+            "certificate_hash": "8cf61526834f3b0ee4b732a9f8c7b837bb47f398"
+          }
+        },
+        {
+          "client_id": "25129664796-17pg6s14n4pbbt3jbpj6a1n3vtolknbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2iOW_W-ZrG9oJ3PFJfgHMwlfX66sL8SQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25129664796-17pg6s14n4pbbt3jbpj6a1n3vtolknbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardMaxElevation="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECEFF1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Birthday"
+            android:id="@+id/category"
+             />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Party yemadinga"
+            android:id="@+id/description"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Location: Senga"
+            android:gravity="center"
+            android:id="@+id/location"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Date: 12/12/2020"
+            android:gravity="center"
+            android:id="@+id/date"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Time: 20:00"
+            android:gravity="center"
+            android:id="@+id/time"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+        <LinearLayout
+            android:id="@+id/fb_item_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="40dp"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:id="@+id/img_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_comment_black_24dp" />
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/button_comment"
+                style="@style/Facebook.Button.Feed"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="8 Comments"
+
+                />
+
+            <ImageView
+                android:id="@+id/img_like"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_star_black_24dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/button_like"
+                style="@style/Facebook.Button.Feed"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:text="5 Likes" />
+
+            <ImageView
+                android:id="@+id/loc"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_location_searching_black_24dp"
+                android:visibility="gone"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/view_location"
+                style="@style/Facebook.Button.Feed"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:text="Location"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

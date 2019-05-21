@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Concert"
+        android:id="@+id/textview"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/ShowImageView"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_add_to_photos_black_24dp"/>
+
+
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/category"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_list_black_24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Category"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:id="@+id/description"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_description_black_24dpa"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Concert Description"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/location_name"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_location_city_black_24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Location Name"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/date"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Date"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/time"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Time"
+        />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonUploadImage"
+        android:layout_below="@+id/ImageNameEditText"
+        android:background="@drawable/shapelogin"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Save Concert"/>
+
+    </LinearLayout>
+</ScrollView>
